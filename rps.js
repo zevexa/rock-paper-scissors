@@ -76,7 +76,7 @@ function playGame(){
     
     let roundsMax = 5;
 
-    for(let currentRound=1; currentRound <= roundsMax; currentRound++){
+    for(let currentRound = 1; currentRound <= roundsMax; currentRound++){
         playRound(currentRound);
         } 
     if(humanScore > computerScore){
@@ -93,7 +93,7 @@ function playGame(){
 
 playGame();
 
-//old code and notes
+//old code and notes based on initial instruction
 
 //create a function that randomly displays rock, paper or scissors
 // function getComputerChoice(){
